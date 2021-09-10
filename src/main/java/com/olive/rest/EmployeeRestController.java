@@ -11,6 +11,7 @@ public class EmployeeRestController {
 	@Value("${my.app.title}")
 	private String title;
 	
+	
 	@GetMapping("/info")
 	public String myData() {
 		System.out.println("Title :: " + title);
